@@ -1,0 +1,17 @@
+{
+    "name": "trezo/mundipagg-cc-skd",
+    "description": "Mundipagg One PHP Library by Trezo",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "Gateway\\" : "lib/" }
+    },
+    "require": {
+        "php": ">=5.3",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "satooshi/php-coveralls": "dev-master"
+    }
+}
