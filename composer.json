@@ -1,6 +1,7 @@
 {
     "name": "trezo/mundipagg-cc-skd",
     "description": "Mundipagg One PHP Library by Trezo",
+    "version": "2.0.2",
     "license": "MIT",
     "autoload": {
         "psr-4": { "GatewayMundi\\" : "lib/" }
