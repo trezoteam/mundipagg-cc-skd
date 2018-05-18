@@ -3,7 +3,7 @@
     "description": "Mundipagg One PHP Library by Trezo",
     "license": "MIT",
     "autoload": {
-        "psr-4": { "GatewayMundiMundi\\" : "lib/" }
+        "psr-4": { "GatewayMundi\\" : "lib/" }
     },
     "require": {
         "php": ">=5.3",
