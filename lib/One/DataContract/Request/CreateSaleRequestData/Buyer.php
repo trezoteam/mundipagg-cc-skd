@@ -1,15 +1,15 @@
 <?php
 
-namespace Gateway\One\DataContract\Request\CreateSaleRequestData;
+namespace GatewayMundi\One\DataContract\Request\CreateSaleRequestData;
 
-use Gateway\One\DataContract\Common\BaseObject;
-use Gateway\One\DataContract\Common\Address;
-use Gateway\One\DataContract\Enum\BuyerCategoryEnum;
-use Gateway\One\DataContract\Enum\EmailTypeEnum;
+use GatewayMundi\One\DataContract\Common\BaseObject;
+use GatewayMundi\One\DataContract\Common\Address;
+use GatewayMundi\One\DataContract\Enum\BuyerCategoryEnum;
+use GatewayMundi\One\DataContract\Enum\EmailTypeEnum;
 
 /**
  * Class Buyer
- * @package Gateway\One\DataContract\Request\CreateSaleRequestData
+ * @package GatewayMundi\One\DataContract\Request\CreateSaleRequestData
  */
 class Buyer extends BaseObject
 {
@@ -361,7 +361,7 @@ class Buyer extends BaseObject
         $this->WorkPhone = $workPhone;
 
         return $this;
-    }    
+    }
 
     /**
      * @return string

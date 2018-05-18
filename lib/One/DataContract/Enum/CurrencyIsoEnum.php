@@ -6,7 +6,7 @@
  * Time: 14:15
  */
 
-namespace Gateway\One\DataContract\Enum;
+namespace GatewayMundi\One\DataContract\Enum;
 
 
 abstract class CurrencyIsoEnum

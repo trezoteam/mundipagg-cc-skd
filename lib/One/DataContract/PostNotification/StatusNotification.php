@@ -1,11 +1,11 @@
 <?php
 
-namespace Gateway\One\DataContract\PostNotification;
-use Gateway\One\DataContract\Enum\OrderStatusEnum;
+namespace GatewayMundi\One\DataContract\PostNotification;
+use GatewayMundi\One\DataContract\Enum\OrderStatusEnum;
 
 /**
  * Class StatusNotification
- * @package Gateway\One\DataContract\PostNotification
+ * @package GatewayMundi\One\DataContract\PostNotification
  */
 class StatusNotification
 {

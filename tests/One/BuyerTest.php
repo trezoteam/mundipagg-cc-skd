@@ -1,8 +1,8 @@
 <?php
 
-namespace Gateway\One;
+namespace GatewayMundi\One;
 
-use Gateway\One\DataContract\Request\CreateSaleRequestData\Buyer;
+use GatewayMundi\One\DataContract\Request\CreateSaleRequestData\Buyer;
 
 class BuyerTest extends \PHPUnit_Framework_TestCase
 {

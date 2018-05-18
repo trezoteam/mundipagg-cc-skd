@@ -1,13 +1,13 @@
 <?php
 
-namespace Gateway\One\DataContract\Request;
+namespace GatewayMundi\One\DataContract\Request;
 
-use Gateway\One\DataContract\Common\BaseObject;
-use Gateway\One\DataContract\Common\ManageCreditCardTransaction;
+use GatewayMundi\One\DataContract\Common\BaseObject;
+use GatewayMundi\One\DataContract\Common\ManageCreditCardTransaction;
 
 /**
  * Class CaptureRequest
- * @package Gateway\One\DataContract\Request
+ * @package GatewayMundi\One\DataContract\Request
  */
 class CancelRequest extends BaseObject
 {

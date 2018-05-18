@@ -1,10 +1,10 @@
 <?php
 
-namespace Gateway\One\DataContract\Enum;
+namespace GatewayMundi\One\DataContract\Enum;
 
 /**
  * Class DocumentTypeEnum
- * @package Gateway\One\DataContract\Enum
+ * @package GatewayMundi\One\DataContract\Enum
  */
 abstract class DocumentTypeEnum
 {

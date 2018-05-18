@@ -1,12 +1,12 @@
 <?php
 
-namespace Gateway\One\DataContract\Request\TokenRequestData;
+namespace GatewayMundi\One\DataContract\Request\TokenRequestData;
 
-use Gateway\One\DataContract\Common\BaseObject;
+use GatewayMundi\One\DataContract\Common\BaseObject;
 
 /**
  * Class TokenCreditCardInstallmentPlan
- * @package Gateway\One\DataContract\Request\TokenRequestData
+ * @package GatewayMundi\One\DataContract\Request\TokenRequestData
  */
 class TokenCreditCardInstallmentPlan extends BaseObject
 {

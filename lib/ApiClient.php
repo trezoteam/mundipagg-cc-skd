@@ -1,16 +1,16 @@
 <?php
 
-namespace Gateway;
+namespace GatewayMundi;
 
 /**
  * Class ApiClient
  * @package gateway
  */
-use Gateway\One\DataContract\Enum\ApiMethodEnum;
-use Gateway\One\DataContract\Enum\ApiResourceEnum;
-use Gateway\One\DataContract\Response\BaseResponse;
-use Gateway\One\Helper\TransactionReportHelper;
-use Gateway\One\Helper\XmlPostParseHelper;
+use GatewayMundi\One\DataContract\Enum\ApiMethodEnum;
+use GatewayMundi\One\DataContract\Enum\ApiResourceEnum;
+use GatewayMundi\One\DataContract\Response\BaseResponse;
+use GatewayMundi\One\Helper\TransactionReportHelper;
+use GatewayMundi\One\Helper\XmlPostParseHelper;
 
 /**
  * Class ApiClient
@@ -520,7 +520,7 @@ class ApiClient
      */
     public function ParseTransactionReportFile($reportFileData)
     {
-        $response = new \Gateway\One\DataContract\TransactionReport\TransactionReport();
+        $response = new \GatewayMundi\One\DataContract\TransactionReport\TransactionReport();
 
         foreach (preg_split("/((\r?\n)|(\r\n?))/", $reportFileData) as $line) {
             $lineProperties = explode(',', $line);

@@ -1,14 +1,14 @@
 <?php
 
-namespace Gateway\One\DataContract\Response;
+namespace GatewayMundi\One\DataContract\Response;
 
 /**
  * Class BaseResponse
- * @package Gateway\One\DataContract\Response
+ * @package GatewayMundi\One\DataContract\Response
  */
 /**
  * Class BaseResponse
- * @package Gateway\One\DataContract\Response
+ * @package GatewayMundi\One\DataContract\Response
  */
 class BaseResponse
 {

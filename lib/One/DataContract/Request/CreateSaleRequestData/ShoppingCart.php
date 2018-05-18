@@ -1,13 +1,13 @@
 <?php
 
-namespace Gateway\One\DataContract\Request\CreateSaleRequestData;
+namespace GatewayMundi\One\DataContract\Request\CreateSaleRequestData;
 
-use Gateway\One\DataContract\Common\BaseObject;
-use Gateway\One\DataContract\Common\Address;
+use GatewayMundi\One\DataContract\Common\BaseObject;
+use GatewayMundi\One\DataContract\Common\Address;
 
 /**
  * Class ShoppingCart
- * @package Gateway\One\DataContract\Request\CreateSaleRequestData
+ * @package GatewayMundi\One\DataContract\Request\CreateSaleRequestData
  */
 class ShoppingCart extends BaseObject
 {
@@ -129,7 +129,7 @@ class ShoppingCart extends BaseObject
     }
 
     /**
-     * @return \Gateway\One\ShoppingCartItem[]
+     * @return \GatewayMundi\One\ShoppingCartItem[]
      */
     public function getShoppingCartItemCollection()
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Gateway\One\DataContract\Common;
+namespace GatewayMundi\One\DataContract\Common;
 
 abstract class BaseObject
 {

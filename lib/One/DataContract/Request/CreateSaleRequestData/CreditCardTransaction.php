@@ -1,12 +1,12 @@
 <?php
 
-namespace Gateway\One\DataContract\Request\CreateSaleRequestData;
+namespace GatewayMundi\One\DataContract\Request\CreateSaleRequestData;
 
-use Gateway\One\DataContract\Common\BaseObject;
+use GatewayMundi\One\DataContract\Common\BaseObject;
 
 /**
  * Class CreditCardTransaction
- * @package Gateway\One\DataContract\Request\CreateSaleRequestData
+ * @package GatewayMundi\One\DataContract\Request\CreateSaleRequestData
  */
 class CreditCardTransaction extends BaseObject
 {
@@ -90,7 +90,7 @@ class CreditCardTransaction extends BaseObject
     }
 
     /**
-     * @param \Gateway\One\DataContract\Request\CreateSaleRequestData\CreditCard $creditCard
+     * @param \GatewayMundi\One\DataContract\Request\CreateSaleRequestData\CreditCard $creditCard
      */
     public function setCreditCard(CreditCard $creditCard)
     {
@@ -159,7 +159,7 @@ class CreditCardTransaction extends BaseObject
     }
 
     /**
-     * @param \Gateway\One\DataContract\Request\CreateSaleRequestData\Recurrency $recurrency
+     * @param \GatewayMundi\One\DataContract\Request\CreateSaleRequestData\Recurrency $recurrency
      */
     public function setRecurrency(Recurrency $recurrency)
     {

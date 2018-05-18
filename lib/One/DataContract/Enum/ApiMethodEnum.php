@@ -1,10 +1,10 @@
 <?php
 
-namespace Gateway\One\DataContract\Enum;
+namespace GatewayMundi\One\DataContract\Enum;
 
 /**
  * Class ApiMethodEnum
- * @package Gateway\One\DataContract\Enum
+ * @package GatewayMundi\One\DataContract\Enum
  */
 abstract class ApiMethodEnum
 {
@@ -27,6 +27,6 @@ abstract class ApiMethodEnum
      *
      */
     const DELETE = 'DELETE';
-    
+
     const PATCH = 'PATCH';
 }
