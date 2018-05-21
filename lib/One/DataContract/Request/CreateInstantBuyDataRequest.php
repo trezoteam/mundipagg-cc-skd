@@ -1,68 +1,68 @@
 <?php
 
-namespace Gateway\One\DataContract\Request;
+namespace GatewayMundi\One\DataContract\Request;
 
-use Gateway\One\DataContract\Common\BaseObject;
-use Gateway\One\DataContract\Common\Address;
-use Gateway\One\DataContract\Enum\CreditCardBrandEnum;
+use GatewayMundi\One\DataContract\Common\BaseObject;
+use GatewayMundi\One\DataContract\Common\Address;
+use GatewayMundi\One\DataContract\Enum\CreditCardBrandEnum;
 
 /**
  * Class InstantBuyDataRequest
- * @package Gateway\One\DataContract\Request\CreateSaleRequestData
+ * @package GatewayMundi\One\DataContract\Request\CreateSaleRequestData
  */
 class CreateInstantBuyDataRequest extends BaseObject{
-    
+
     /**
      * @var Address Endereço de cobrança do comprador.
      */
     protected $BillingAddress;
-    
+
     /**
      * @var string Bandeira do cartão do comprador.
      */
     protected $CreditCardBrand;
-    
+
     /**
      * @var string Número do cartão do comprador. Informar apenas os números do cartão.
      */
     protected $CreditCardNumber;
-    
+
     /**
      * @var int Mês de expiração do cartão.
      */
     protected $ExpMonth;
-    
+
     /**
      * @var int Ano de expiração do cartão.
      */
     protected $ExpYear;
-    
+
     /**
      * @var string Nome do portador do cartão.
      */
     protected $HolderName;
-    
+
     /**
-     * @var string 
+     * @var string
      */
     protected $IsOneDollarAuthEnabled;
-    
+
     /**
      * @var type string
      */
     protected $BuyerKey;
-    
+
     /**
      * @var string Código de segurança do cartão.
      */
     protected $SecurityCode;
-    
+
     public function __construct()
     {
         $this->BillingAddress = null;
         $this->CreditCardBrand = null;
     }
-    
+
      /**
      * @return Address
      */
@@ -74,17 +74,17 @@ class CreateInstantBuyDataRequest extends BaseObject{
 
         return $this->BillingAddress;
     }
-    
+
     /**
      * @param string $CreditCardBrand
      * @return $this
      */
     public function setCreditCardBrand($CreditCardBrand){
         $this->CreditCardBrand = $CreditCardBrand;
-        
+
         return $this;
     }
-    
+
      /**
      * @return Address
      */
@@ -92,7 +92,7 @@ class CreateInstantBuyDataRequest extends BaseObject{
     {
         return $this->BuyerKey;
     }
-    
+
     /**
      * @param string $CreditCardBrand
      * @return $this
@@ -101,7 +101,7 @@ class CreateInstantBuyDataRequest extends BaseObject{
         $this->BuyerKey = $buyerKey;
         return $this;
     }
-    
+
     /**
      * @return CreditCardBrandEnum
      */
@@ -109,7 +109,7 @@ class CreateInstantBuyDataRequest extends BaseObject{
     {
         return $this->CreditCardBrand;
     }
-    
+
      /**
      * @param string $creditCardNumber
      * @return $this
@@ -120,7 +120,7 @@ class CreateInstantBuyDataRequest extends BaseObject{
 
         return $this;
     }
-    
+
     /**
      * @return string
      */
@@ -128,7 +128,7 @@ class CreateInstantBuyDataRequest extends BaseObject{
     {
         return $this->CreditCardNumber;
     }
-    
+
     /**
      * @param int $expMonth
      * @return $this
@@ -139,7 +139,7 @@ class CreateInstantBuyDataRequest extends BaseObject{
 
         return $this;
     }
-    
+
     /**
      * @return int
      */
@@ -147,7 +147,7 @@ class CreateInstantBuyDataRequest extends BaseObject{
     {
         return $this->ExpMonth;
     }
-    
+
     /**
      * @param int $expYear
      * @return $this
@@ -158,7 +158,7 @@ class CreateInstantBuyDataRequest extends BaseObject{
 
         return $this;
     }
-    
+
     /**
      * @return int
      */
@@ -166,7 +166,7 @@ class CreateInstantBuyDataRequest extends BaseObject{
     {
         return $this->ExpYear;
     }
-    
+
      /**
      * @param string $holderName
      * @return $this
@@ -177,7 +177,7 @@ class CreateInstantBuyDataRequest extends BaseObject{
 
         return $this;
     }
-    
+
     /**
      * @return string
      */
@@ -185,7 +185,7 @@ class CreateInstantBuyDataRequest extends BaseObject{
     {
         return $this->HolderName;
     }
-    
+
     /**
      * @param string $isOneDollarAuthEnabled
      * @return $this
@@ -196,7 +196,7 @@ class CreateInstantBuyDataRequest extends BaseObject{
 
         return $this;
     }
-    
+
     /**
      * @return string
      */
@@ -204,7 +204,7 @@ class CreateInstantBuyDataRequest extends BaseObject{
     {
         return $this->IsOneDollarAuthEnabled;
     }
-    
+
     /**
      * @param string $securityCode
      * @return $this
@@ -215,7 +215,7 @@ class CreateInstantBuyDataRequest extends BaseObject{
 
         return $this;
     }
-    
+
     /**
      * @return string
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace Gateway\One\DataContract\Report;
+namespace GatewayMundi\One\DataContract\Report;
 
 /**
  * Class CreditCardError

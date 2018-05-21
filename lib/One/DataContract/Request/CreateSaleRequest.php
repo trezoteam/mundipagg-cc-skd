@@ -1,12 +1,12 @@
 <?php
 
-namespace Gateway\One\DataContract\Request;
+namespace GatewayMundi\One\DataContract\Request;
 
-use Gateway\One\DataContract\Common\BaseObject;
+use GatewayMundi\One\DataContract\Common\BaseObject;
 
 /**
  * Class CreateSaleRequest
- * @package Gateway\One\DataContract\Request
+ * @package GatewayMundi\One\DataContract\Request
  */
 class CreateSaleRequest extends BaseObject
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace Gateway\One;
+namespace GatewayMundi\One;
 
-use Gateway\One\DataContract\Enum\CreditCardBrandEnum;
-use Gateway\One\DataContract\Request\CreateSaleRequestData\CreditCard;
-use Gateway\One\Helper\CreditCardHelper;
+use GatewayMundi\One\DataContract\Enum\CreditCardBrandEnum;
+use GatewayMundi\One\DataContract\Request\CreateSaleRequestData\CreditCard;
+use GatewayMundi\One\Helper\CreditCardHelper;
 
 class CreditCardHelperTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @expectedException \Gateway\One\DataContract\Report\CreditCardError
+     * @expectedException \GatewayMundi\One\DataContract\Report\CreditCardError
      */
     public function testCreateCreditCard_Failure()
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Gateway\One\DataContract\Response;
+namespace GatewayMundi\One\DataContract\Response;
 
 class CreateSaleResponse
 {

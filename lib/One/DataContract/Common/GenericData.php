@@ -1,8 +1,8 @@
 <?php
 
-namespace Gateway\One\DataContract\Common;
+namespace GatewayMundi\One\DataContract\Common;
 
-use Gateway\One\DataContract\Common\BaseObject;
+use GatewayMundi\One\DataContract\Common\BaseObject;
 
 class GenericData extends BaseObject
 {

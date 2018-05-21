@@ -1,14 +1,14 @@
 <?php
 
-namespace Gateway\One\Helper;
+namespace GatewayMundi\One\Helper;
 
-use Gateway\One\DataContract\Enum\CreditCardBrandEnum;
-use Gateway\One\DataContract\Report\CreditCardError;
-use Gateway\One\DataContract\Request\CreateSaleRequestData\CreditCard;
+use GatewayMundi\One\DataContract\Enum\CreditCardBrandEnum;
+use GatewayMundi\One\DataContract\Report\CreditCardError;
+use GatewayMundi\One\DataContract\Request\CreateSaleRequestData\CreditCard;
 
 /**
  * Class CreditCardHelper
- * @package Gateway\One\Helper
+ * @package GatewayMundi\One\Helper
  */
 abstract class CreditCardHelper
 {

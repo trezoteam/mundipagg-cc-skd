@@ -1,14 +1,14 @@
 <?php
 
-namespace Gateway\One\DataContract\Enum;
+namespace GatewayMundi\One\DataContract\Enum;
 
 /**
  * Class GenderEnum
- * @package Gateway\One\DataContract\Enum
+ * @package GatewayMundi\One\DataContract\Enum
  */
 /**
  * Class GenderEnum
- * @package Gateway\One
+ * @package GatewayMundi\One
  */
 abstract class GenderEnum
 {

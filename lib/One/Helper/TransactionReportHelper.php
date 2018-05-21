@@ -1,10 +1,10 @@
 <?php
 
-namespace Gateway\One\Helper;
+namespace GatewayMundi\One\Helper;
 
-use Gateway\One\DataContract\TransactionReport\TransactionReportData\TransactionReportCreditCardTransaction;
-use Gateway\One\DataContract\TransactionReport\TransactionReportData\TransactionReportOrder;
-use Gateway\One\DataContract\TransactionReport\TransactionReportData\Header;
+use GatewayMundi\One\DataContract\TransactionReport\TransactionReportData\TransactionReportCreditCardTransaction;
+use GatewayMundi\One\DataContract\TransactionReport\TransactionReportData\TransactionReportOrder;
+use GatewayMundi\One\DataContract\TransactionReport\TransactionReportData\Header;
 
 class TransactionReportHelper
 {

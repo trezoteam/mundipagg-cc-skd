@@ -1,14 +1,14 @@
 <?php
 
-namespace Gateway\One\DataContract\Request\TokenRequestData;
+namespace GatewayMundi\One\DataContract\Request\TokenRequestData;
 
-use Gateway\One\DataContract\Common\BaseObject;
-use Gateway\One\DataContract\Common;
+use GatewayMundi\One\DataContract\Common\BaseObject;
+use GatewayMundi\One\DataContract\Common;
 
 
 /**
  * Class TokenRequestData
- * @package Gateway\One\DataContract\Request\TokenRequestData
+ * @package GatewayMundi\One\DataContract\Request\TokenRequestData
  */
 class TokenRequestData extends BaseObject
 {
